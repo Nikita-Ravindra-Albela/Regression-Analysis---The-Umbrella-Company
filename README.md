@@ -42,8 +42,9 @@ Sales
 Rainfall (mm)
 Highly significant predictor (p-value < 0.001)
 
-🎯 Takeaway: Umbrella sales rise by ~47 units for every additional mm of rainfall.
 
+
+🎯 Takeaway: Umbrella sales rise by ~47 units for every additional mm of rainfall.
 ----------------------------------------------------------------------------------------------------------------------------
 2️⃣ Multiple Linear Regression
 Objective: Examine how Rainfall, Temperature, and Wind Speed collectively impact sales.
