@@ -3,6 +3,7 @@ Goal: To uncover how weather variables influence umbrella sales, and build predi
 -------------------------------------------------------------------------------------------------------------------------------
 🧠 Problem Statement
 The Umbrella Company wanted to optimize inventory forecasting by understanding how weather patterns—especially rainfall—affect umbrella sales across months. This project explores those relationships using Linear and Multiple Regression techniques.
+
 📊 Data Overview
 -------------------------------------------------------------------------------------------------------------------------------
 Time Period: Feb 2023 – Feb 2024
@@ -18,6 +19,7 @@ Temperature (°C)
 Wind Speed (km/h)
 
 Quantity Sold (umbrella units)
+
 ----------------------------------------------------------------------------------------------------------------------------
 🔎 Methodology
 1️⃣ Simple Linear Regression
@@ -30,6 +32,7 @@ R² = 0.82 → Rainfall alone explains 82% of the variation in sales.
 Regression Equation:
 
 Sales
+
 =
 −
 630.33
@@ -40,6 +43,7 @@ Rainfall (mm)
 Highly significant predictor (p-value < 0.001)
 
 🎯 Takeaway: Umbrella sales rise by ~47 units for every additional mm of rainfall.
+
 ----------------------------------------------------------------------------------------------------------------------------
 2️⃣ Multiple Linear Regression
 Objective: Examine how Rainfall, Temperature, and Wind Speed collectively impact sales.
@@ -59,9 +63,11 @@ Wind Speed → Not statistically significant (p > 0.6)
 Regression Equation:
 
 Sales
+
 =
 −
 2971.68
+
 +
 58.40
 ×
@@ -82,6 +88,7 @@ Inventory Optimization: Focus stocking around months with expected high rainfall
 Marketing: Target campaigns during specific climate conditions to boost conversions.
 
 Forecasting: Model can predict future sales given weather forecasts.
+
 ----------------------------------------------------------------------------------------------------------------------------
 🛠️ Tools Used
 Microsoft Excel for data cleaning and regression modeling
