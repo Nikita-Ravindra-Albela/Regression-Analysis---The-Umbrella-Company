@@ -81,6 +81,8 @@ Temp
 32.89
 ×
 Wind
+
+
 🎯 Takeaway: Rainfall and temperature are the primary drivers of umbrella demand. Wind speed shows minimal influence.
 ----------------------------------------------------------------------------------------------------------------------------
 📈 Business Impact
